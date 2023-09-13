@@ -1,0 +1,117 @@
+Image Statistics
+
+Format		Percentages	Quantity
+JPEG		50.00% 		50 pcs
+PNG		30.00% 		30 pcs
+GIF		20.00% 		20 pcs
+
+Dimension	Percentages	Quantity
+800x600		50.00% 		50 pcs
+1280x720	20.00% 		20 pcs
+1920x1080	10.00% 		10 pcs
+2560x1440	8.00% 		8 pcs
+3840x2160	6.00% 		6 pcs
+5120x2880	4.00% 		4 pcs
+7680x4320	2.00% 		2 pcs
+
+Filename	Type		Dimensions	Size
+000.jpeg	image/jpeg	800x600		119.75 KB
+001.jpeg	image/jpeg	800x600		41.35 KB
+002.jpeg	image/jpeg	800x600		86.90 KB
+003.jpeg	image/jpeg	800x600		101.47 KB
+004.jpeg	image/jpeg	800x600		22.31 KB
+005.jpeg	image/jpeg	800x600		123.54 KB
+006.jpeg	image/jpeg	800x600		61.56 KB
+007.jpeg	image/jpeg	800x600		89.25 KB
+008.jpeg	image/jpeg	800x600		68.64 KB
+009.jpeg	image/jpeg	800x600		55.80 KB
+010.jpeg	image/jpeg	800x600		64.70 KB
+011.jpeg	image/jpeg	800x600		59.36 KB
+012.jpeg	image/jpeg	800x600		86.90 KB
+013.jpeg	image/jpeg	800x600		105.46 KB
+014.jpeg	image/jpeg	800x600		39.52 KB
+015.jpeg	image/jpeg	800x600		29.45 KB
+016.jpeg	image/jpeg	800x600		144.98 KB
+017.jpeg	image/jpeg	800x600		33.94 KB
+018.jpeg	image/jpeg	800x600		35.98 KB
+019.jpeg	image/jpeg	800x600		91.35 KB
+020.jpeg	image/jpeg	800x600		40.63 KB
+021.jpeg	image/jpeg	800x600		49.78 KB
+022.jpeg	image/jpeg	800x600		66.61 KB
+023.jpeg	image/jpeg	800x600		56.47 KB
+024.jpeg	image/jpeg	800x600		202.75 KB
+025.png		image/png	800x600		389.68 KB
+026.png		image/png	800x600		281.16 KB
+027.png		image/png	800x600		595.12 KB
+028.png		image/png	800x600		688.32 KB
+029.png		image/png	800x600		343.39 KB
+030.png		image/png	800x600		407.02 KB
+031.png		image/png	800x600		412.71 KB
+032.png		image/png	800x600		348.88 KB
+033.png		image/png	800x600		472.40 KB
+034.png		image/png	800x600		491.48 KB
+035.gif		image/gif	800x600		278.99 KB
+036.gif		image/gif	800x600		185.47 KB
+037.gif		image/gif	800x600		152.13 KB
+038.gif		image/gif	800x600		202.92 KB
+039.gif		image/gif	800x600		246.04 KB
+040.gif		image/gif	800x600		282.39 KB
+041.gif		image/gif	800x600		465.32 KB
+042.gif		image/gif	800x600		174.94 KB
+043.gif		image/gif	800x600		318.04 KB
+044.gif		image/gif	800x600		255.26 KB
+045.gif		image/gif	800x600		195.18 KB
+046.gif		image/gif	800x600		256.33 KB
+047.gif		image/gif	800x600		358.18 KB
+048.gif		image/gif	800x600		201.32 KB
+049.gif		image/gif	800x600		144.52 KB
+050.jpeg	image/jpeg	1280x720	169.60 KB
+051.jpeg	image/jpeg	1280x720	93.18 KB
+052.jpeg	image/jpeg	1280x720	300.96 KB
+053.jpeg	image/jpeg	1280x720	176.50 KB
+054.jpeg	image/jpeg	1280x720	76.87 KB
+055.jpeg	image/jpeg	1280x720	75.00 KB
+056.jpeg	image/jpeg	1280x720	120.45 KB
+057.jpeg	image/jpeg	1280x720	169.50 KB
+058.jpeg	image/jpeg	1280x720	252.26 KB
+059.jpeg	image/jpeg	1280x720	110.43 KB
+060.png		image/png	1280x720	1.25 MB
+061.png		image/png	1280x720	684.35 KB
+062.png		image/png	1280x720	538.08 KB
+063.png		image/png	1280x720	1.33 MB
+064.png		image/png	1280x720	1.15 MB
+065.gif		image/gif	1280x720	531.50 KB
+066.gif		image/gif	1280x720	545.83 KB
+067.gif		image/gif	1280x720	490.90 KB
+068.gif		image/gif	1280x720	411.45 KB
+069.gif		image/gif	1280x720	547.20 KB
+070.jpeg	image/jpeg	1920x1080	636.57 KB
+071.jpeg	image/jpeg	1920x1080	638.78 KB
+072.jpeg	image/jpeg	1920x1080	137.72 KB
+073.jpeg	image/jpeg	1920x1080	295.87 KB
+074.jpeg	image/jpeg	1920x1080	382.50 KB
+075.png		image/png	1920x1080	1.78 MB
+076.png		image/png	1920x1080	1.46 MB
+077.png		image/png	1920x1080	2.39 MB
+078.png		image/png	1920x1080	2.97 MB
+079.png		image/png	1920x1080	1.95 MB
+080.jpeg	image/jpeg	2560x1440	484.43 KB
+081.jpeg	image/jpeg	2560x1440	547.00 KB
+082.jpeg	image/jpeg	2560x1440	368.21 KB
+083.jpeg	image/jpeg	2560x1440	654.10 KB
+084.png		image/png	2560x1440	1.78 MB
+085.png		image/png	2560x1440	2.97 MB
+086.png		image/png	2560x1440	2.74 MB
+087.png		image/png	2560x1440	1.94 MB
+088.jpeg	image/jpeg	3840x2160	1.35 MB
+089.jpeg	image/jpeg	3840x2160	624.16 KB
+090.jpeg	image/jpeg	3840x2160	727.50 KB
+091.png		image/png	3840x2160	8.68 MB
+092.png		image/png	3840x2160	11.83 MB
+093.png		image/png	3840x2160	9.82 MB
+094.jpeg	image/jpeg	5120x2880	2.70 MB
+095.jpeg	image/jpeg	5120x2880	3.00 MB
+096.png		image/png	5120x2880	12.13 MB
+097.png		image/png	5120x2880	8.25 MB
+098.jpeg	image/jpeg	7680x4320	2.38 MB
+099.png		image/png	7680x4320	36.36 MB
