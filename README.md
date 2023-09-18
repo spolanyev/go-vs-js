@@ -1,6 +1,6 @@
 # Comparisons
 
-- [Generate thumbnails on AWS](generate-thumbnail/README.md)
+- [Generate thumbnails on AWS Lambda](generate-thumbnail/README.md)
 
 
 
