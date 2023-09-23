@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 )
 
-type Item struct {
+type FileInfo struct {
 	FileId  string  `json:"fileId"`
 	Name    string  `json:"name"`
 	S3Key   string  `json:"s3Key"`
@@ -23,23 +23,24 @@ type Item struct {
 	Size    *int    `json:"size"`
 }
 
-func RetrieveItem(ctx context.Context, request events.LambdaFunctionURLRequest) (Item, error) {
+func GetFileInfo(ctx context.Context, request events.LambdaFunctionURLRequest) (FileInfo, error) {
 	fmt.Printf("Request: %+v\n", request)
 
-	failed := Item{}
+	failed := FileInfo{}
+
 	fileId, ok := request.QueryStringParameters["fileId"]
 	if !ok {
 		fmt.Println("Error: no query parameter")
 		return failed, errors.New("no query parameter")
 	}
 
-	cfg, err := config.LoadDefaultConfig(ctx)
+	defaultConfig, err := config.LoadDefaultConfig(ctx)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return failed, err
 	}
 
-	dbClient := dynamodb.NewFromConfig(cfg)
+	dbClient := dynamodb.NewFromConfig(defaultConfig)
 
 	getItemInput := &dynamodb.GetItemInput{
 		TableName: aws.String("fi-file-sharing"),
@@ -48,21 +49,26 @@ func RetrieveItem(ctx context.Context, request events.LambdaFunctionURLRequest) 
 		},
 	}
 
-	getItemResponse, err := dbClient.GetItem(ctx, getItemInput)
+	getItemOutput, err := dbClient.GetItem(ctx, getItemInput)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return failed, err
 	}
 
-	item := Item{}
-	if err := attributevalue.UnmarshalMap(getItemResponse.Item, &item); err != nil {
+	if len(getItemOutput.Item) == 0 {
+		fmt.Println("Error: item not found")
+		return failed, errors.New("item not found")
+	}
+
+	result := FileInfo{}
+	if err := attributevalue.UnmarshalMap(getItemOutput.Item, &result); err != nil {
 		fmt.Println("Error:", err)
 		return failed, err
 	}
 
-	return item, nil
+	return result, nil
 }
 
 func main() {
-	lambda.Start(RetrieveItem)
+	lambda.Start(GetFileInfo)
 }

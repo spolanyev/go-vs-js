@@ -3,13 +3,13 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb'
 import { DynamoDBDocumentClient, GetCommand } from '@aws-sdk/lib-dynamodb'
 
-async function retrieveItem(event) {
+async function getFileInfo(event) {
     console.log('Request:', event)
 
     const fileId = event.queryStringParameters?.fileId
     if (!fileId) {
         console.log('Error: no query parameter')
-        return {}
+        throw new Error('no query parameter')
     }
 
     const documentClient = DynamoDBDocumentClient.from(new DynamoDBClient({}), {
@@ -30,12 +30,18 @@ async function retrieveItem(event) {
 
     if (!Item) {
         console.log('Error: item not found')
-        return {}
+        throw new Error('item not found')
     }
 
-    return Item
+    return {
+        fileId: Item.fileId,
+        name: Item.name,
+        s3Key: Item.s3Key,
+        preview: Item.preview,
+        size: Item.size
+    };
 }
 
 export const lambdaHandler = async (event) => {
-    return await retrieveItem(event)
+    return await getFileInfo(event)
 }
