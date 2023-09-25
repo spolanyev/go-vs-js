@@ -2,11 +2,9 @@
 
 A dataset consists of [100 different image files](https://github.com/spolanyev/go-vs-js/blob/main/generate-thumbnail/image-statistics.txt).
 
-For each image, I implemented thumbnail generation using two different programming languages - Go and JavaScript with their respective image resizing libraries.
+For each image, I created thumbnails using three different programming languages - JavaScript, Go, and Rust with their respective image resizing libraries.
 
-With an interval of 1 hour, I repeated this process 10 times for each image and programming language to ensure statistical significance, resulting in a total of 2,000 observations.
-
-Several series were excluded from [the statistics](https://github.com/spolanyev/go-vs-js/blob/main/generate-thumbnail/results.csv) due to thumbnail generation errors.
+I repeated the process 10 times with an interval of 1 hour to ensure statistical significance, resulting in a total of [3,000 observations](https://github.com/spolanyev/go-vs-js/blob/main/generate-thumbnail/results.csv), and took the average.
 
 This is done in a [Wildix](https://www.wildix.com/) R&D playground.
 
@@ -14,14 +12,19 @@ This is done in a [Wildix](https://www.wildix.com/) R&D playground.
 ## Summary
 
 ### js
-Billing seconds 116
+Billing seconds 96.87
 
-Billing MB 6208
+Billing MB 6400
 
 ### go
-Billing seconds 132.15
+Billing seconds 119.33
 
-Billing MB 6208
+Billing MB 6400
+
+### rust
+Billing seconds 81.57
+
+Billing MB 6400
 
 ## Technical Data
 ### js
@@ -32,7 +35,7 @@ nodejs18.x
 
 x86_64
 
-256 MB
+512 MB
 
 https://www.npmjs.com/package/sharp
 
@@ -43,6 +46,17 @@ provided.al2
 
 x86_64
 
-256 MB
+512 MB
 
 https://pkg.go.dev/github.com/nfnt/resize
+
+### rust
+1.72.1
+
+provided.al2
+
+x86_64
+
+512 MB
+
+https://crates.io/crates/image

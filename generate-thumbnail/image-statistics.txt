@@ -16,11 +16,11 @@ Dimension	Percentages	Quantity
 
 Filename	Type		Dimensions	Size
 000.jpeg	image/jpeg	800x600		119.75 KB
-001.jpeg	image/jpeg	800x600		41.35 KB
-002.jpeg	image/jpeg	800x600		86.90 KB
-003.jpeg	image/jpeg	800x600		101.47 KB
+001.jpeg	image/jpeg	800x600		123.54 KB
+002.jpeg	image/jpeg	800x600		101.47 KB
+003.jpeg	image/jpeg	800x600		105.46 KB
 004.jpeg	image/jpeg	800x600		22.31 KB
-005.jpeg	image/jpeg	800x600		123.54 KB
+005.jpeg	image/jpeg	800x600		41.35 KB
 006.jpeg	image/jpeg	800x600		61.56 KB
 007.jpeg	image/jpeg	800x600		89.25 KB
 008.jpeg	image/jpeg	800x600		68.64 KB
@@ -28,7 +28,7 @@ Filename	Type		Dimensions	Size
 010.jpeg	image/jpeg	800x600		64.70 KB
 011.jpeg	image/jpeg	800x600		59.36 KB
 012.jpeg	image/jpeg	800x600		86.90 KB
-013.jpeg	image/jpeg	800x600		105.46 KB
+013.jpeg	image/jpeg	800x600		86.90 KB
 014.jpeg	image/jpeg	800x600		39.52 KB
 015.jpeg	image/jpeg	800x600		29.45 KB
 016.jpeg	image/jpeg	800x600		144.98 KB

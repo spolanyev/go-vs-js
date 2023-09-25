@@ -1,8 +1,8 @@
 # Comparisons
 
-- [Generate thumbnails on AWS Lambda](generate-thumbnail/README.md)
+- [Generate thumbnail images using AWS Step Functions with Lambda, S3, and DynamoDB](generate-thumbnail/README.md)
 
 
 
 
-##### Author [spolanyev@gmail.com](mailto:spolanyev@gmail.com?subject=JS%20vs%20Go)
+##### Author [spolanyev@gmail.com](mailto:spolanyev@gmail.com?subject=Go%20vs%20JS)
