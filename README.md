@@ -1,6 +1,6 @@
 # Comparisons
 
-- [Generate thumbnail images using AWS Step Functions with Lambda, S3, and DynamoDB](generate-thumbnail/README.md)
+- [Generate thumbnails using AWS Step Functions with API Gateway, Lambda, S3, and DynamoDB](generate-thumbnail/README.md)
 
 
 
