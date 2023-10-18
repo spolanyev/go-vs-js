@@ -1,0 +1,24 @@
+Image Statistics
+
+Format	Percentages	Quantity
+JPEG	100.00%	18 pcs
+
+Filename	Type	Dimensions	Size
+8MP-1.jpg	image/jpeg	3264x2448	2.64 MB
+8MP-2.jpg	image/jpeg	3264x2448	2.45 MB
+12MP-1.jpg	image/jpeg	4000x3000	3.74 MB
+12MP-2.jpg	image/jpeg	4032x3024	2.12 MB
+16MP-1.jpg	image/jpeg	4608x3456	5.37 MB
+16MP-2.jpg	image/jpeg	4624x3468	6.53 MB
+24MP-1.jpg	image/jpeg	5712x4284	5.51 MB
+24MP-2.jpg	image/jpeg	5712x4284	5.04 MB
+48MP-1.jpg	image/jpeg	8000x6000	13.55 MB
+48MP-2.jpg	image/jpeg	8064x6048	10.14 MB
+50MP-1.jpg	image/jpeg	8160x6120	10.69 MB
+50MP-2.jpg	image/jpeg	8192x6144	12.65 MB
+64MP-1.jpg	image/jpeg	9248x6936	26.73 MB
+64MP-2.jpg	image/jpeg	9280x6944	7.97 MB
+108MP-1.jpg	image/jpeg	12000x9000	30.16 MB
+108MP-2.jpg	image/jpeg	12000x9000	27.52 MB
+200MP-1.jpg	image/jpeg	16384x12288	57.92 MB
+200MP-2.jpg	image/jpeg	16384x12288	86.12 MB
