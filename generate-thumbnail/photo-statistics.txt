@@ -1,9 +1,9 @@
 Image Statistics
 
 Format	Percentages	Quantity
-JPEG	100.00%	18 pcs
+JPEG	100.00%		18 pcs
 
-Filename	Type	Dimensions	Size
+Filename	Type		Dimensions	Size
 8MP-1.jpg	image/jpeg	3264x2448	2.64 MB
 8MP-2.jpg	image/jpeg	3264x2448	2.45 MB
 12MP-1.jpg	image/jpeg	4000x3000	3.74 MB
